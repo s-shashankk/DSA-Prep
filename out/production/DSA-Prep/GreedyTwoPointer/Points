@@ -1,0 +1,13 @@
+Two pointers = explore from both sides OR adjust a window.
+Greedy = always take the best local move to reach global optimum.
+Combine = Move pointers in a way that shrinks or expands optimally.
+
+Opposite Ends (Shrink to Optimum)
+If current value too large → move right pointer (j--).
+If too small → move left pointer (i++).
+
+Mantra Lines (write in notes)
+"If too big → shrink right, if too small → grow left."
+"Expand window with right, shrink with left, track best."
+"Greedy pointer moves where the limitation lies."
+"Partition by condition → swap & move pointers."
